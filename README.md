@@ -36,7 +36,7 @@ I initiated the decompilation process by executing the following command provide
 apktool d apkFilePath
 ```
 
-* `d` falg signifies 'decode'.
+* `d` flag signifies 'decode'.
 * `apkFilePath` the path to the APK file.
 
 The attached screenshot depicting the result of this command in the terminal.
@@ -92,7 +92,7 @@ To compile and build the project, we will utilize Apktool with the following com
 apktool b projectFolderPath
 ```
 
-* `b` falg signifies 'build'.
+* `b` flag signifies 'build'.
 * `apkFilePath` the path to the project directory.
 
 <div align="center">
@@ -125,4 +125,14 @@ NOTE: The modified APK, named 'modifiedApp.apk', has been included in this repos
 
 <br> <div align="center">
   <img src="./screenshots/10.png" width='20%'>
+</div>
+
+##
+
+<h3 align="center">Viewing Java classes for the APK</h3>
+
+For the bonus task, we utilized <a href="https://github.com/skylot/jadx?tab=readme-ov-file">JADX Tool</a>, a tool known for its GUI, to view the Java classes within the decoded APK. Attached is the screenshot depicting the MainActivity, as requested.
+
+<div align="center">
+  <img src="./screenshots/11.png" width='75%'>
 </div>
